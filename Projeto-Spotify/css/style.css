@@ -76,6 +76,8 @@ div.capa .btn-transparente:hover {
     color: #000;
 }
 
+
+
 /*Fim Home*/
 
 /*Início Serviços*/
@@ -169,17 +171,12 @@ div.capa .btn-transparente:hover {
 
 /*Média Queries*/
 
-@media (max-width:320px) {
-    #servicos h1 {
-        font-size: 2.8rem;
-    }
-}
-
 @media (min-width:547px) and (max-width: 575px) {
     a.btn-roxo {
         display: block;
         margin: 0 auto;
     }
+
 }
 
 @media (max-width: 767.98px) {
@@ -196,7 +193,18 @@ div.capa .btn-transparente:hover {
     }
 
     #home h1 {
+        padding: 0 1.2rem;
         font-size: 4.5rem;
+    }
+
+    #home .carousel-item {
+        height: 24rem;
+    }
+
+    #home .ajustes h1 {
+
+        padding-top: 5rem;
+        font-size: 4rem;
     }
 
     #home a.btn-roxo {
@@ -231,6 +239,18 @@ div.capa .btn-transparente:hover {
 
     #rodape .caixa {
         margin: 0.5rem 0 0.5rem 0;
+    }
+
+
+}
+
+@media (max-width:320px) {
+    #servicos h1 {
+        font-size: 2.8rem;
+    }
+
+    #home .ajustes h1 {
+        font-size: 3.6rem;
     }
 
 
